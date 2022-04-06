@@ -1,6 +1,6 @@
 # Outdoor.sy Customer List
 
-Outdoor.sy Customer List is a tool that takes customer lists and return the data in different sorted orders, callable from a ruby console
+Outdoor.sy Customer List is a tool that takes customer lists and return the data in different sorted orders.
 
 TTY::Prompt is a gem that provides independent prompt component for TTY toolkit.
 
