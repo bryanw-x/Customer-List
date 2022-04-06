@@ -1,4 +1,4 @@
-﻿# Outdoor.sy Customer List
+# Outdoor.sy Customer List
 
 Outdoor.sy Customer List is a tool that takes customer lists and return the data in different sorted orders, callable from a ruby console
 
@@ -12,6 +12,7 @@ First, in the 'project' directory, you can open up the 'customer_list.rb' file w
 gem install tty
 gem install tty-prompt
 ```
+
 ## Usage
 
 ```ruby
@@ -25,14 +26,13 @@ end
 confirm_selections
 ```
 
-
 ## Notes:
-Files included in the folder are 'pipes.txt' and 'commas.txt'. After installing TTY::Prompt gem, you can run the following command to fire up the application:
+Files included in the folder are 'pipes.txt' and 'commas.txt'. After installing TTY::Prompt gem, you can run the following command to fire up the application: 
 ```bash
 ruby customer_list.rb
 ```
 
-The below commands will run the "pipes.txt" file by default, with the command that runs "commas.txt" commented out. This can change as necessary.
+The below commands will run the "pipes.txt" file by default, with the command that runs "commas.txt" commented out. This can change as necessary. 
 
 ```ruby
 CustomerList.new("pipes.txt").run!
